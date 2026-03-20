@@ -10,6 +10,7 @@ import java.util.List;
 public class DepartmentService {
     private final DepartmentRepository departmentRepository;
 
+
     public DepartmentService(DepartmentRepository departmentRepository) {
         this.departmentRepository = departmentRepository;
     }
