@@ -8,7 +8,11 @@ public class Employee {
     private Long id;
 
     private String name;
+
+
+
     private Double salary;
+
 
     @ManyToOne    //many employees ---- one department
     @JoinColumn(name = "department_id") //creates foreign key
